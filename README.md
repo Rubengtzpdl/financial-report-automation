@@ -1,4 +1,4 @@
-# Financial Report Automation 📄
+# Financial Report Automation
 
 Automated pipeline that generates professional PDF financial reports from raw Excel data using Python.
 
