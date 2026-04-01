@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Estado de resultados simulado de una empresa
+# Estado de resultados simulado
 data = {
     "concepto": [
         "Ingresos Totales", "Costo de Ventas", "Utilidad Bruta",
