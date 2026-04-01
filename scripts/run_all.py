@@ -14,7 +14,7 @@ for script in scripts:
     result = subprocess.run([sys.executable, script], capture_output=True, text=True)
     print(result.stdout)
     if result.returncode != 0:
-        print(f"❌ Error en {script}: {result.stderr}")
+        print(f"Error en {script}: {result.stderr}")
         break
 
 print("Reporte generado exitosamente.")
