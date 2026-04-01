@@ -8,7 +8,7 @@ scripts = [
     "scripts/generar_reporte.py"
 ]
 
-print("🚀 Iniciando automatización de reporte financiero...\n")
+print("Iniciando automatización de reporte financiero...\n")
 for script in scripts:
     print(f"▶ Corriendo {script}...")
     result = subprocess.run([sys.executable, script], capture_output=True, text=True)
